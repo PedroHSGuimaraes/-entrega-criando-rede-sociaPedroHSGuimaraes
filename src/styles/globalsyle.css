@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+:root {
+  --color-brand-1: #4c6ef5;
+  --color-brand-2: #364fc7;
+
+  --color-gray-0: #0a0c0d;
+  --color-gray-1: #212529;
+  --color-gray-2: #495057;
+  --color-gray-3: #868e96;
+  --color-gray-4: #dee2e6;
+  --color-gray-5: #f8f9fa;
+  --color-grey-opacity-1: rgba(33, 37, 41, 0.5);
+  --color-White-Fixed: #ffffff;
+
+  --font-family-inter: "Inter", sans-serif;
+  --font-size-title-1: 1.5rem;
+  --font-size-title-2: 1.25rem;
+
+  --font-size-text-1: 1rem;
+  --font-size-text-2: 0.87rem;
+  --font-size-text-3: 0.75rem;
+
+  --font-weight-title-1: 700;
+  --font-weight-title-2: 600;
+  --font-weight-text: 400;
+
+  --line-heigth-title-1: 2rem;
+  --line-heigth-title-2: 1.5rem;
+
+  --line-heigth-text-1: 1.75rem;
+  --line-heigth-text-2-3: 1rem;
+}
+/* flex box boddy */
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+  width: 90rem;
+  height:109.4375rem;
+ 
+  overflow-x: hidden;
+}
+
+img {
+  width: 3.25rem;
+  height: 3.25rem;
+}
+

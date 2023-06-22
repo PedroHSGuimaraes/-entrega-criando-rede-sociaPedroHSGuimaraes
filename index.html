@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./src/styles/reset.css" />
+  <link rel="stylesheet" href="./src/styles/globalsyle.css" />
+  <link rel="stylesheet" href="./src/styles/header.css" />
+  <link rel="stylesheet" href="./src/styles/main.css" />
+  <link rel="stylesheet" href="./src/styles/media.css">
+  <link rel="stylesheet" href="./src/styles/modalStye.css">
+
+  <!-- FONTE -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <!-- SCRIPT -->
+  <script src="./src/script/database.js" defer></script>
+  <script src="./src/script/index.js" defer></script>
+
+
+  <title>Criando rede social</title>
+</head>
+
+<body>
+  <header>
+    <!-- HEADER -->
+
+    <div class="header__logo">
+      <img class="logo" src="./src/assets/img/logo.svg" alt="Logo" />
+    </div>
+    <div>
+      <button class="header__button">Sair</button>
+    </div>
+  </header>
+  <!-- MAIN -->
+  <main>
+    <section class="section-profile__main">
+      <div class="div-left__section">
+        <ul id="users-left__div-left"></ul>
+        <div class="div-form__section">
+          <form id="form">
+            <label name="main" for="text-title"></label>
+            <input type="text" id="text-title" placeholder="Digite aqui o titulo do seu post" />
+
+            <label for="text-title"></label>
+            <input type="text" id="text" placeholder="Digite  seu post" />
+            <label for="text-title"></label>
+            <button class="button--post--hover" id="button-post" type="submit"> Postar </button>
+          </form>
+
+        </div>
+      </div>
+      <div class="div-right__section">
+        <h2 class="follow-title">Sugestões para você seguir </h2>
+        <ul id="users-show-right-1"></ul>
+      </div>
+    </section>
+
+    <section class="section-post__main">
+      <div class="section__div-right-container">
+        <h1 class="post-title__container">Post</h1>
+        <ul id="users-show-post"></ul>
+      </div>
+
+    </section>
+  </main>
+  <dialog class="modal-controller">
+
+   
+
+
+  </dialog>
+</body>
+
+</html>

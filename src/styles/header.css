@@ -1,0 +1,33 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1.875rem 6.25rem;
+  gap: 0.625rem;
+  flex-wrap: wrap;
+  position: fixed;
+  z-index: 10;
+  width: 95rem;
+  height: 4.75rem;
+  left: 0rem;
+  top: 0rem;
+  background: #212529;
+}
+
+.header__button {
+  position: relative;
+  right: 14.5rem;
+  background-color: var(--color-gray-1);
+  color: var(--color-gray-5);
+  font-family: var(--font-family-inter);
+}
+
+.logo {
+  width: 7.4375rem;
+  height: 0.875rem;
+}
+
+.header__button:hover {
+  border: 2px solid var(--color-gray-1);
+}

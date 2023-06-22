@@ -1,0 +1,76 @@
+dialog {
+  font-family: var(--font-family-inter);
+  padding: 5;
+  width: 31.25rem;
+  height: 25rem;
+  border-radius: 0.125rem;
+  background-color: var(--color-gray-5);
+  border-color: var(--color-gray-1);
+  overflow-x: hidden;
+
+}
+
+.section__ul__user-button-close-modal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding:0rem;
+  position: absolute;
+  width: 2.5rem;
+  height: 2.5rem;
+  left: 29.625rem;
+  top:0.625rem;
+  background: #F8F9FA;
+  border-radius: 9.375rem;
+  
+}
+.section__ul__user-name-post-modal{
+  position: absolute;
+  top:1.5rem;
+  left: 4.875rem;
+  font-size:var(--font-size-text-1);
+  font-weight: var(--font-weight-title-2);
+}
+.section__ul__user-stack-post-modal{
+  position: absolute;
+  top: 2.875rem;
+  left: 4.9375rem;
+  font-size: var(--font-size-text-2);
+  font-weight: var(--font-weight-text);
+  color: var(--color-gray-3);
+}
+.section__ul__user-title-post-modal{
+  position: absolute;
+  top: 5.375rem;
+    left: -0.0625rem;
+  font-size: var(--font-size-title-1);
+  font-weight: var(--font-weight-title-1);
+  color: var(--color-gray-1);
+  line-height: var(--line-heigth-title-1);
+  text-align: center;
+}
+
+.section__ul__user-text-post-modal{
+  position: absolute;
+  top: 11.375rem;
+    left: 0.3125rem;
+  text-align: center;
+  font-size: var(--font-size-text-1);
+  font-weight: var(--font-weight-text-2);
+  color: var(--color-gray-1);
+  line-height: var(--line-heigth-title-2);
+}
+
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.541);
+}
+
+
+
+
+.section__ul__user-button-close-modal:hover {
+  background-color: var(--color-gray-1);
+  color: var(--color-gray-4);
+  border: 2px solid var(--color-gray-1);
+}
